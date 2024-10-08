@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+        
+        /* Navigation bar styling */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: yellow;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: purple;
+            color: black;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .menu-right {
+            float: right;
+        }
+
+        /* Hero section */
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?fashion');
+            height: 90vh;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            color: white;
+            font-size: 48px;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        /* Sections */
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .section p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" class="logo">Photograph</a>
+        <div class="menu-right">
+            <a href="#home">Home</a>
+            <a href="#trends">Trends</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Photograph</h1><hr>
+        <img src="1.jpg" class="rounded mx-auto d-block" alt="Photo">
+    </section>
+
+    <!-- Content Section 1: Trends -->
+    <section class="section" id="trends">
+        <h2>Latest Photo Trends</h2><hr>
+        <img src="fantasy-3077928_640.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="6.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="8.jpg" class="rounded mx-auto d-block" alt=""><br>
+        <img src="7.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="9.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="5.webp" class="rounded mx-auto d-block" alt="">
+    </section>
+
+    <!-- Content Section 2: Shop -->
+    <section class="section" id="shop">
+        <h2>Shop the Collection</h2>
+   <img src="3.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="4.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="plouzane-1758197_640.jpg" class="rounded mx-auto d-block" alt=""><br>
+        <img src="thunderstorm-3625405_640.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="2.jpg" class="rounded mx-auto d-block" alt="">
+        <img src="fog-4436636_640.jpg" class="rounded mx-auto d-block" alt="">
+
+    </section>
+
+    <!-- Content Section 3: About -->
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>This is our website for photography. If you like a picture which is one of our photography website, so you will contact us</p>
+
+    <!-- Content Section 4: Contact -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+    <p>Contact Number: <a href="03005148643">03005148643</a></p>
+    <p>Contact Number: <a href="03134516556">03134516556</a></p>
+    </section>
+
+</body>
+</html>
